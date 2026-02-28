@@ -1,0 +1,37 @@
+# Python
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Ambiente
+.env
+.env.local
+*.key
+secrets.toml
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Earth Engine
+.config/
+credentials.json
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Dados temporários
+*.tmp
+*.cache
+data/temp/
